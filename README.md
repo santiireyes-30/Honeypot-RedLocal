@@ -1,6 +1,6 @@
 # Honeypot-RedLocal
 
-# Implementación y análisis de un Honeypot SSH }
+# Implementación y análisis de un Honeypot SSH 
 
 Descripción
 
