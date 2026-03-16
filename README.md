@@ -1,6 +1,4 @@
-# Honeypot-RedLocal
-
-# Implementación y análisis de un Honeypot SSH 
+# Honeypot-RedLocal | Implementación y Análisis de un Honeypot SSH 
 
 Descripción
 
@@ -17,6 +15,8 @@ Actividades realizadas:
   - Análisis de logs generados por intentos de acceso y comandos ejecutados.
 
   - Identificación de patrones de actividad maliciosa comunes en accesos SSH comprometidos.
+
+  - Escaneo de puerto (2222) 
 
 Tecnologías utilizadas:
 
