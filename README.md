@@ -29,3 +29,36 @@ Tecnologías utilizadas:
   - Análisis de logs
 
   - Conceptos de post-exploitation
+
+# Reconocimiento y Movimiento en el Sistema Captados
+
+1. Reconocimiento del sistema
+
+``` whoami
+   id
+   uname -a
+   hostname
+   pwd ```
+
+Distribución, Usuarios del Sistemas y Usuarios Conectados
+   
+ ``` cat /etc/os-release
+
+    cat /etc/passwd
+
+    who
+    w ```
+
+2. Enumeración del sistema
+
+ Archivos importantes del sistema
+
+``` ls
+    ls -la
+
+    find / -name "*.txt" 2>/dev/null ```
+
+Ver historial de comandos:
+
+``` cat ~/.bash_history ```
+
