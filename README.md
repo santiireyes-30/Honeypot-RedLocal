@@ -24,7 +24,7 @@ Tecnologías utilizadas:
 
   - SSH
 
-  -Honeypots
+  - Honeypots (Cowrie)
 
   - Análisis de logs
 
