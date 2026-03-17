@@ -30,35 +30,56 @@ Tecnologías utilizadas:
 
   - Conceptos de post-exploitation
 
-# Reconocimiento y Movimiento en el Sistema Captados
+# Registros de Comandos Captados en el Sistema
 
-1. Reconocimiento del sistema
+### 1. Reconocimiento del sistema
 
 ``` whoami
    id
    uname -a
    hostname
-   pwd ```
+   pwd
+```
 
 Distribución, Usuarios del Sistemas y Usuarios Conectados
    
- ``` cat /etc/os-release
+ ```
+    cat /etc/os-release
 
     cat /etc/passwd
 
     who
-    w ```
+    w
+```
 
-2. Enumeración del sistema
+### 2. Enumeración del sistema
 
- Archivos importantes del sistema
+Archivos importantes del sistema
 
-``` ls
+```
+    ls
     ls -la
 
-    find / -name "*.txt" 2>/dev/null ```
+    find / -name "*.txt" 2>/dev/null 
+```
 
-Ver historial de comandos:
+### 3. Reconocimiento de red
 
-``` cat ~/.bash_history ```
+Red interna, Conexiones Abiertas y Máquinas en la red
+
+```
+    ip a
+    ifconfig
+
+    netstat -tulnp
+
+    arp -a
+```
+### 4. Escala de Privlegios
+
+Intento de ser usuario root
+
+```
+    sudo -l
+```
 
