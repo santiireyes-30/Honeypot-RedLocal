@@ -2,7 +2,7 @@
 
 Descripción
 
-Implementé un honeypot(Cowrie) SSH en un entorno Linux para analizar el comportamiento de atacantes tras comprometer un sistema. Se simularon actividades de post-explotación comunes para observar los comandos utilizados por los atacantes y estudiar patrones de reconocimiento y enumeración del sistema.
+Implementé un honeypot(Cowrie) SSH en un entorno Linux para analizar el comportamiento tras comprometer el sistema. Se simularon actividades de post-explotación comunes para observar los comandos utilizados por los atacantes y estudiar patrones de reconocimiento y enumeración del sistema.
 
 Actividades realizadas:
 
